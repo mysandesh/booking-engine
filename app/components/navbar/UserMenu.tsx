@@ -1,5 +1,7 @@
 "use client";
 
+import { AiOutlineMenu } from "react-icons/ai";
+
 const UserMenu = () => {
   return (
     <div className="relative">
