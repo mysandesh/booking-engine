@@ -39,6 +39,7 @@ const UserMenu = () => {
             transition
             "
         ></div>
+        <AiOutlineMenu />
       </div>
     </div>
   );
