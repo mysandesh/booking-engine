@@ -32,7 +32,7 @@ const UserMenu = () => {
           BookMe your home
         </div>
         <div
-          onClick={(toggleOpen) => {}}
+          onClick={toggleOpen}
           className="
             p-4
             md:py-1
@@ -48,10 +48,11 @@ const UserMenu = () => {
             hover:shadow-md
             transition
             "
-        ></div>
-        <AiOutlineMenu />
-        <div className="hidden md:block">
-          <Avatar />
+        >
+          <AiOutlineMenu />
+          <div className="hidden md:block">
+            <Avatar />
+          </div>
         </div>
       </div>
       {isOpen && (

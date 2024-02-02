@@ -16,7 +16,9 @@ const MenuItem: React.FC<MenuItemProps> = ({ onClick, label }) => {
         transition
         font-semibold
         "
-    ></div>
+    >
+      {label}
+    </div>
   );
 };
 
